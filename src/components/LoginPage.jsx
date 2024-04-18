@@ -7,7 +7,7 @@ function LoginPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (password === "happybirthday28") {
+    if (password === "itsmybirthday") {
       // Redirect to main page
       window.location.href = "/main";
     } else {

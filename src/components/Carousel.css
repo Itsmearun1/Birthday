@@ -3,7 +3,7 @@
   justify-content: center; /* Horizontally center the content */
   align-items: center; /* Vertically center the content */
   width: 100%; /* Ensure the parent div takes up the full width */
-  height: 100vh; /* Set a specific height, such as viewport height */
+  height: 70vh; /* Set a specific height, such as viewport height */
 }
 
 .child {

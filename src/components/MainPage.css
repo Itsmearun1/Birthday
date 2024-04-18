@@ -1,19 +1,38 @@
 .wish {
-  margin-bottom: 200px;
-  color: skyblue;
-  font-size: 24px;
+  color: white;
+  font-size: 48px;
   font-weight: bold;
   text-align: center;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 .wishcard {
   margin-bottom: 5%;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.quote {
+  font-style: italic;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.birthday-wish {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .main-page {
-  background-image: url("https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/jieun-kwon-1_PBSdyG8_o-unsplash.jpg");
+  background-image: url("https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/sky-5534319_1920.jpg");
   background-size: cover; 
   background-repeat: no-repeat;
+  min-height: 100vh; /* Change height to min-height */
 }
-
