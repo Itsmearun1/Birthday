@@ -1,0 +1,22 @@
+.wish {
+  margin-bottom: 200px;
+  color: skyblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5%;
+}
+.wishcard {
+  margin-bottom: 5%;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container iframe {
+  width: 300px;
+  height: 200px;
+}
