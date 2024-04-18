@@ -10,13 +10,10 @@
 .wishcard {
   margin-bottom: 5%;
 }
-.video-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.main-page {
+  background-image: url("https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/jieun-kwon-1_PBSdyG8_o-unsplash.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
 }
 
-.video-container iframe {
-  width: 300px;
-  height: 200px;
-}

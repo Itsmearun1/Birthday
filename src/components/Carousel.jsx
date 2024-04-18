@@ -1,33 +1,66 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import  './Carousel.css';
+import './Carousel.css'
 const fadeImages = [
   {
-    url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/IMG-20230104-WA0016.jpg',
     caption: 'First Slide'
   },
   {
-    url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/IMG-20230122-WA0028.jpg',
     caption: 'Second Slide'
   },
   {
-    url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/IMG-20230828-WA0020.jpg',
     caption: 'Third Slide'
   },
+  {
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/IMG-20230903-WA0148.jpg',
+    caption: 'Fourth Slide'
+  },
+  {
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/IMG-20231224-WA0050.jpg',
+    caption: 'Fifth Slide'
+  },
+  {
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/IMG_20230908_234953.jpg',
+    caption: 'Sixth Slide'
+  },
+  {
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/IMG_20240113_143324.jpg',
+    caption: 'Seventh Slide'
+  },
+  {
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/IMG_20240113_180729.jpg',
+    caption: 'Eighth Slide'
+  },
+  {
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/img1.jpg',
+    caption: 'Ninth Slide'
+  },
+  {
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/img2.jpg',
+    caption: 'Tenth Slide'
+  },
+  {
+    url: 'https://raw.githubusercontent.com/Itsmearun1/Birthday/main/src/assets/img3.jpg',
+    caption: 'Eleventh Slide'
+  }
 ];
+
 
 const Slideshow = () => {
   return (
     <div className="slide-container">
       <Fade>
         {fadeImages.map((fadeImage, index) => (
-          <div key={index}>
-            <img style={{ width: '100%' }} src={fadeImage.url} />
+          <div key={index} style={{border:"10px solid red"}} className='parent'>
+            <img style={{ width: '20%' }} src={fadeImage.url} />
           </div>
         ))}
       </Fade>
     </div>
   )
 }
-export  default Slideshow;
+export default  Slideshow;
